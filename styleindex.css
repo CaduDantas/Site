@@ -1,0 +1,625 @@
+* {
+
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #0f0f0f;
+}
+
+/* =========================
+   BOTÕES DO TOPO
+   ========================= */
+
+ #BotoesAcima {
+
+    display: flex;
+
+    background-color: #1B1715;
+
+    border: 2px solid #3d342f;
+
+    height: 70px;
+
+    border-radius: 5px;
+
+    margin: auto;
+
+ }
+
+    .botoes {
+
+        display: flex;
+
+        gap: 30px;
+
+        padding-left: 20px;
+    }
+
+    .botoes button {
+
+    font-size: 20px;
+
+    background-color: #1B1715;
+
+    border: none;
+
+    color: #E5D9C3;
+
+    text-align: center;
+
+    }
+
+/* =========================
+   PAGINA INICIAL
+   ========================= */
+
+   /* =========================
+   TITULO E SUBTITULO
+   ========================= */
+
+#primeiraparte {
+
+    width: 95%;
+
+    display: flex;
+
+    max-width: 1300px;
+
+    gap: 5%;
+
+    margin: auto;
+    
+
+}
+
+#titulo-descricao {
+
+    width: 70%;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 10%
+}
+
+#titulo-subtitulo {
+    
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+#titulo {
+
+    width: 100%;
+
+    color: #D4AF37;
+
+    padding-left: 10px;
+
+    font-size: 53px;
+
+    margin: 0;
+    
+    margin-top: 30px;
+}
+
+#subtitulo {
+
+    width: 100%;
+
+    color: #E5D9C3;
+
+    padding-left: 10px;
+
+    font-size: 15px;
+
+    text-align: left;
+
+    margin: 0;    
+
+}
+
+/* =========================
+   DESCRICAO PAGINA INICIAL
+   ========================= */
+
+#tdescricao-descricao {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 5%
+
+}
+
+#tdescricao {
+
+    width: 100%; 
+
+    margin-top: 0;
+
+}
+
+/* =========================
+   DESCRICAO PAGINA INICIAL
+   ========================= */
+
+#PCD {
+
+    width: 25%;
+
+    display: flex;
+
+    flex-direction: column;
+
+    margin-top: 29%;
+
+    gap: 20px;
+
+    
+
+}
+
+@media (min-width:1034px) {
+    #PCD {
+
+
+        margin-top: 26%;
+
+    }
+
+
+}
+
+@media (min-width:1059px) {
+    #PCD {
+
+
+        margin-top: 25%;
+
+    }
+
+
+}
+
+@media (min-width:1104px) {
+    #PCD {
+
+
+        margin-top: 23%;
+
+    }
+
+
+}
+
+@media (min-width:1147px) {
+    #PCD {
+
+
+        margin-top: 22%;
+
+    }
+
+}
+
+@media (min-width:1186px) {
+    #PCD {
+
+
+        margin-top: 18%;
+
+    }
+
+}
+
+@media (min-width:1205px) {
+    #PCD {
+
+
+        margin-top: 11%;
+
+    }
+
+}
+
+
+
+@media (min-width:1284px) {
+    #PCD {
+        
+        margin-top: 9%;
+
+    }
+
+
+}
+
+@media (min-width:1353px) {
+    #PCD {
+
+
+        margin-top: 7%;
+
+    }
+
+}
+
+@media (min-width:1365px) {
+    #PCD {
+
+
+        margin-top: 5%;
+
+    }
+
+}
+
+
+ #pcdplaca {
+
+    width: 95%;
+ }
+
+#huntemonster {
+
+    width: 70%;
+
+    height: auto;
+
+    border: 3px solid rgb(54, 32, 75);
+
+    margin: 0;
+}
+
+@media (min-width: 320px) {
+#huntemonster {
+
+    width: 80%;
+
+    height: 70%
+}
+
+}
+
+@media (min-width: 1100px) {
+#huntemonster {
+
+    width: 70%;
+
+    height: 70%
+}
+
+}
+
+@media (min-width: 1100px) {
+#pcdplaca {
+
+    width: 70%;
+
+}
+
+}
+
+
+
+
+/* =========================
+   OS CELESTIAIS
+   ========================= */
+
+   .caixa {
+
+    border: 2px solid #3d342f;
+
+    border-radius: 3px;
+    
+    background-color: #1B1715;
+
+    color: #E5D9C3;
+
+   }
+
+
+.titulo {
+
+    text-align: center;
+
+    margin: auto;
+
+    margin-top: 150px;
+
+    font-size: 25px;
+
+    width: 95%;
+    
+   }
+
+ .personagem {
+
+    width: 95%;
+
+    max-width: 100%;
+
+    display: flex;
+
+    margin: auto;
+
+    margin-left: 40px;
+
+    gap: 5%;
+
+    margin-top: 120px;
+
+   }
+
+
+
+   .imagem-stats {
+
+    display: flex;
+
+    width: 30%;
+
+    gap: 2%;
+
+    margin-top: 0;
+
+   }
+
+   
+ @media (min-width: 2000px) {
+   .imagem-stats {
+
+    display: flex;
+
+    gap: 2%;
+
+    height: 600px;
+
+    width: 600px;
+
+   }
+
+}
+
+   .img-placa {
+
+    width: 70%;
+
+    display: flex;
+
+    flex-direction: column;
+
+    margin-top: 0;
+
+
+   }
+
+
+   .placa {
+
+    text-align: center;
+
+    font-size: 25px;
+
+    width: 100%;
+
+    padding: 10px;
+
+    margin-top: 0;
+
+   }
+
+    .stats-carta {
+
+    width: 70%;
+
+    display: flex;
+
+    flex-direction: column;
+
+    margin-top: 0;
+
+
+   }
+
+   
+    .stats-text {
+
+    display: flex;
+
+    flex-direction: column;
+
+    width: 30%;
+
+    color: #E5D9C3;
+
+    margin: 0;
+
+    height: 50%;
+
+    padding-top: 23%
+
+    }
+
+    @media (min-width: 1100px) {
+        .stats-text {
+
+            padding-top: 20%
+
+        }
+    }
+
+    .stats-text1 {
+
+    display: flex;
+
+    flex-direction: column;
+
+    width: 30%;
+
+    color: #E5D9C3;
+
+    margin: 0;
+
+    height: 50%;
+
+    padding-top: 34%
+
+    }
+
+
+    .stats {
+
+        font-size: 14px;
+
+    }
+
+    @media (min-width: 1450px) {
+    .stats {
+
+        font-size: 24px;
+
+    }
+}
+
+
+   @media (min-width: 1100px) and (max-width: 1449px) {
+    .stats {
+
+        font-size: 18px;
+
+    }
+}
+    
+
+
+
+
+
+    .ps-text {
+
+    display: flex;
+
+    flex-direction: column;
+
+    text-align: start;
+
+    border-radius: 3px;
+
+    color: #E5D9C3;
+
+    width: 30%;
+
+    gap: 2%;
+
+    }
+
+    .pstext {
+
+
+    text-align: center;
+
+    padding: 10px;
+
+    margin-top: 0;
+
+
+    }
+
+    .textembaixops{
+
+
+    text-align: start;
+
+    padding: 10px;
+
+    font-size: 17px;
+
+
+    }
+
+    #creditosfinais {
+
+    width: 100%;
+
+    display: flex;
+
+    gap: 30%;
+
+    text-align: start;
+
+    padding: 10px;
+
+    font-size: 9px;
+
+    margin-top: 200px;
+
+    }
+
+    #creditoscadu {
+
+        width: 40%
+        
+    }
+
+    #creditoscharge {
+
+        width: 40%
+    }
+
+#os-annistates {
+
+    display: grid;
+
+   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+    gap: 20px;
+
+    width: 100%;
+
+    flex-grow: 1;
+}
+
+
+
+@media (min-width: 1300px) {
+#os-annistates {
+
+    display: grid;
+
+   grid-template-columns: repeat(2, 1fr);
+
+    gap: 20px;
+
+    width: 100%;
+
+    flex-grow: 1;
+}
+
+}
+
+
+#os-annistates img {
+
+    width: 140px;
+
+    flex-grow: 1;
+}
+
+@media (max-width: 1100px) {
+#os-annistates img {
+
+    width: 120px;
+
+    flex-grow: 1;
+}
+
+}

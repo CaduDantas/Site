@@ -1,0 +1,92 @@
+* {
+
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #0f0f0f;
+}
+
+/* =========================
+   BOTÕES DO TOPO
+   ========================= */
+
+ #BotoesAcima {
+
+    display: flex;
+
+    background-color: #1B1715;
+
+    border: 2px solid #3d342f;
+
+    height: 70px;
+
+    border-radius: 5px;
+
+    margin: auto;
+
+ }
+
+    .botoes {
+
+        display: flex;
+
+        gap: 30px;
+
+        padding-left: 20px;
+    }
+
+    .botoes button {
+
+    font-size: 20px;
+
+    background-color: #1B1715;
+
+    border: none;
+
+    color: #E5D9C3;
+
+    text-align: center;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    #creditosfinais {
+
+    width: 100%;
+
+    display: flex;
+
+    gap: 30%;
+
+    text-align: start;
+
+    padding: 10px;
+
+    font-size: 9px;
+
+    margin-top: 200px;
+
+    }
+
+    #creditoscadu {
+
+        width: 40%
+        
+    }
+
+    #creditoscharge {
+
+        width: 40%
+    }
