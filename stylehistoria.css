@@ -51,62 +51,7 @@ body {
 
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-        #creditosfinais {
-
-    width: 100%;
-
-    display: flex;
-
-    gap: 30%;
+.caixa {
 
     border: 2px solid #3d342f;
 
@@ -114,11 +59,68 @@ body {
     
     background-color: #1B1715;
 
+    color: #E5D9C3;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+ .creditosfinais {
+
+    width: 100%;
+
+    display: flex;
+
+    gap: 30%;
+
     text-align: start;
 
     padding: 10px;
-
-    color: #E5D9C3;
 
     font-size: 9px;
 

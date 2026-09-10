@@ -51,6 +51,17 @@ body {
 
     }
 
+.caixa {
+
+    border: 2px solid #3d342f;
+
+    border-radius: 3px;
+    
+    background-color: #1B1715;
+
+    color: #E5D9C3;
+
+}
 
 
 
@@ -64,11 +75,7 @@ body {
 
 
 
-
-
-
-
-    #creditosfinais {
+ .creditosfinais {
 
     width: 100%;
 
